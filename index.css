@@ -1,0 +1,22 @@
+button{
+    border-radius: 0px;
+
+}
+
+#start_btn{
+    background-color: rgb(88, 235, 88);
+}
+
+#stop_btn{
+    background-color: rgb(235, 88, 88);
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blanchedalmond;
+    color: rgb(112, 55, 45);
+}
+
+.grid, h1{
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div>
+    <h1 class="Title">WCCI Metronome Demo</h1>
+    <div class="grid">
+        <input id="bpm_text" type="text" onkeypress onpropertychange onkeyuponpaste oninput="changeBPM()" value="100"/>
+        <button id="start_btn" onclick="startTimer()">Start</button>
+        <button id="stop_btn" onclick="stopTimer()">Stop</button>
+    </div>
+</div>
+</body>
+<script src = "metronome.js" id="canvasContext"></script>
+</html>
