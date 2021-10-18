@@ -19,3 +19,10 @@ body{
 .grid, h1{
     text-align: center;
 }
+
+#canvas{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
